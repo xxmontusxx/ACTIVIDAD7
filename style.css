@@ -1,0 +1,122 @@
+@media (min-width:769px){
+
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 227px 227px 227px;
+        width: 100%;
+        background-color: beige;
+    }
+    .c1{
+        text-align: center;
+        margin: 5px;
+        background-color: blue;
+    }
+    .c2{
+        text-align: center;
+        margin: 5px;
+        background-color:yellow;
+    }
+    .c3{
+        text-align: center;
+        margin: 5px;
+        background-color:black
+    }
+    .c4{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(82, 7, 82)
+    }
+    .c5{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(228, 45, 8)
+        
+    }
+    .c6{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(219, 87, 87)
+    }
+    .c7{
+        text-align: center;
+        margin: 5px;
+        background-color:red
+    }
+    .c8{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(2, 98, 2)
+    }
+    .c9{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(60, 60, 60)
+    }
+}
+@media (min-width:321px) and (max-width:768px){
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 227px 227px 227px;
+        width: 100%;
+        background-color: beige;
+    }
+    .c5{
+        text-align: center;
+        margin: 5px;
+        background-color: blue;
+    }
+    .c4{
+        text-align: center;
+        margin: 5px;
+        background-color:yellow;
+    }
+    .c1{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(82, 7, 82)
+    }
+    .c6{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(228, 45, 8)
+        
+    }
+    .c3{
+        text-align: center;
+        margin: 5px;
+        background-color:red
+    }
+    .c2{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(2, 98, 2)
+    }
+}
+@media (max-width:320px)
+{
+    .grid-layout{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 227px 227px 227px;
+        width: 100%;
+        background-color: beige;
+    }
+    .c2{
+        text-align: center;
+        margin: 5px;
+        background-color: blue;
+    }
+    .c3{
+        text-align: center;
+        margin: 5px;
+        background-color:rgb(82, 7, 82)
+    }
+    .c1{
+        text-align: center;
+        margin: 5px;
+        background-color:red
+    }
+}
+
